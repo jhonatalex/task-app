@@ -1,0 +1,73 @@
+# Byte for VS Code
+.vscode/
+
+# Logs
+logs
+*.log
+*.stacktrace
+
+# Product Log for VS Code
+.vscode-server/
+
+# Temporary files
+.DS_Store
+.env
+.idea/
+.gradle/
+build/
+*.iml
+*.ipr
+*.iws
+.dart_tool/
+.flutter-plugins-dependencies
+.flutter-plugins
+.packages
+.flutter-plugins-private
+
+# Mobile
+# Android
+/android/
+/android/.gradle/
+/android/app/build/
+/android/gradle/wrapper/
+/android/local.properties
+/android/key.properties
+
+# iOS
+/ios/
+/ios/Flutter/Flutter.framework/
+/ios/Flutter/Flutter.podspec
+/ios/Pods/
+/ios/.symlinks/
+/ios/UserInterfaceState.xcuserate
+/ios/Flutter/App.framework
+
+# Web
+/web/
+
+# Windows
+/windows/
+
+# Linux
+/linux/
+
+# macOS
+/macos/
+
+# Dependency management
+/packages/
+/plugins/
+
+# IDE
+.idea/
+*.iml
+
+# Build artifacts
+build/
+*.apk
+*.aab
+*.ipa
+
+# Debug/Release
+debug/
+release/
