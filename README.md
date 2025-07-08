@@ -187,7 +187,6 @@ Input Validation: Validación en cliente
 Error Handling: Manejo apropiado de errores de red
 
 
-
 Mejoras Futuras
 
  Implementar modo offline
