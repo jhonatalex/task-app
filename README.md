@@ -143,14 +143,12 @@ Una aplicación full-stack para la gestión de tareas desarrollada con **NestJS*
 | :------- | :----------- | :-------------------- | :------------------------------------------------------------------------------------- |
 | `GET`    | `/task`      | Obtener todas las tareas | -                                                                                      |
 | `POST`   | `/task`      | Crear nueva tarea     | `{ "title": "string", "description": "string", "do": boolean, "createdAt": "Date" }` |
-| `GET`    | `/task/:id`  | Obtener tarea por ID  | -                                                                                      |
-| `PATCH`  | `/task/:id`  | Actualizar tarea      | `{ "title": "string", "description": "string", "do": boolean }`                        |
-| `DELETE` | `/task/:id`  | Eliminar tarea        | -                                                                                      |
+
 
 ### Respuestas de Ejemplo
 
 **Registro exitoso:**
-```json
+``json
 {
   "status": "success",
   "message": "Usuario registrado exitosamente",
